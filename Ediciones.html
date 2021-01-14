@@ -20,7 +20,7 @@
         <div class="container-fluid"><a class="navbar-brand" href="https://raulgsanciprian.github.io/Premios_Atril/"><img id="logo" src="assets/img/logo.png"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" id="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse text-center d-lg-flex align-items-lg-start" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="Ediciones.html"><i class="fa fa-film"></i>&nbsp;<span>Ediciones</span></a></li>
+                    <li class="nav-item" id="ediciones-active"><a class="nav-link" href="Ediciones.html"><i class="fa fa-film"></i>&nbsp;<span>Ediciones</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-mortar-board"></i>&nbsp;<span>Homenajes</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-glass-cheers"></i><span>&nbsp;In memoriam</span></a></li>
                 </ul>
@@ -29,7 +29,7 @@
     </nav>
     <div id="main-content">
         <div class="text-uppercase text-center d-flex d-lg-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center section-title-container">
-            <h1><i class="fa fa-film"></i>&nbsp;Ediciones&nbsp;</h1>
+            <h1 class="d-block"><i class="fa fa-film"></i>&nbsp;Ediciones&nbsp;</h1>
         </div>
         <div class="card">
             <div class="card-header">
@@ -37,7 +37,7 @@
                     <li class="nav-item"><a class="nav-link active d-inline-block" id="item-1-1-tab" data-toggle="tab" role="tab" aria-controls="item-1-1" aria-selected="true" href="#item-1-1">2019&nbsp;</a></li>
                     <li class="nav-item"><a class="nav-link" id="item-1-2-tab" data-toggle="tab" role="tab" aria-controls="item-1-2" aria-selected="false" href="#item-1-2">2018&nbsp;</a></li>
                     <li class="nav-item"><a class="nav-link" id="item-1-3-tab" data-toggle="tab" role="tab" aria-controls="item-1-3" aria-selected="false" href="#item-1-3">2017&nbsp;</a></li>
-                    <li class="nav-item"><a class="nav-link" id="item-1-3-tab-1" data-toggle="tab" role="tab" aria-controls="item-1-3" aria-selected="false" href="#item-1-3">2018&nbsp;</a></li>
+                    <li class="nav-item"><a class="nav-link" id="item-1-4-tab" data-toggle="tab" role="tab" aria-controls="item-1-4" aria-selected="false" href="#item-1-4">2018&nbsp;</a></li>
                 </ul>
             </div>
             <div class="card-body">
@@ -53,8 +53,8 @@
                                         <tr>
                                             <th>Categoría</th>
                                             <th>Nominados</th>
-                                            <th>Ganador por público</th>
-                                            <th>Ganador por jurado</th>
+                                            <th>Ganador <br>por público</th>
+                                            <th>Ganador<br>&nbsp;por jurado</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -67,8 +67,12 @@
                                                     <li>Héctor Emmanuel Gómez en Nace una estrella</li>
                                                 </ul>
                                             </td>
-                                            <td>Moisés Iván Mora</td>
-                                            <td><img class="ganador-img" src="assets/img/moises-ivan-mora-img.jpg"><span class="text-center d-block">Moisés Iván Mora<br></span></td>
+                                            <td>
+                                                <div class="ganador-div"><img class="ganador-img" src="assets/img/moises-ivan-mora-img.jpg"><span class="text-center d-block">Moisés Iván Mora<br></span></div>
+                                            </td>
+                                            <td>
+                                                <div class="ganador-div"><img class="ganador-img" src="assets/img/moises-ivan-mora-img-2.jpg"><span class="text-center d-block">Moisés Iván Mora<br></span></div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>Mejor Actor de Película Live Action</td>
@@ -79,8 +83,12 @@
                                                     <li>Héctor Emmanuel Gómez - Farrokh Bulsara/Freddie mercury en Bohemian Rhapsody: La historia de Freddie Mercury</li>
                                                 </ul>
                                             </td>
-                                            <td>Alberto Bernal</td>
-                                            <td>Irwin Daayán</td>
+                                            <td>
+                                                <div class="ganador-div"><img class="ganador-img" src="assets/img/alberto-bernal-img.jpg"><span class="text-center d-block">Alberto Bernal<br></span></div>
+                                            </td>
+                                            <td>
+                                                <div class="ganador-div"><img class="ganador-img" src="assets/img/irwin-daayan-img.jpg"><span class="text-center d-block">Irwin Daayán<br></span></div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>Mejor Actriz de Película Live Action</td>
@@ -91,8 +99,12 @@
                                                     <li>Annie Rojas - Jazmin en Aladdín</li>
                                                 </ul>
                                             </td>
-                                            <td>Annie Rojas</td>
-                                            <td>Erica Edwards</td>
+                                            <td>
+                                                <div class="ganador-div"><img class="ganador-img" src="assets/img/annie-rojas-img.jpg"><span class="text-center d-block">Annie Rojas<br></span></div>
+                                            </td>
+                                            <td>
+                                                <div class="ganador-div"><img class="ganador-img" src="assets/img/erica-edwards-img.jpg"><span class="text-center d-block">Erica Edwards<br></span></div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>Mejor Canción Doblada Animada</td>
@@ -103,8 +115,12 @@
                                                     <li>Héctor Ortiz - No acepto en Toy Story 4</li>
                                                 </ul>
                                             </td>
-                                            <td>Annie Rojas</td>
-                                            <td>Annie Rojas</td>
+                                            <td>
+                                                <div class="ganador-div"><img class="ganador-img" src="assets/img/annie-rojas-img.jpg"><span class="text-center d-block">Annie Rojas<br></span></div>
+                                            </td>
+                                            <td>
+                                                <div class="ganador-div"><img class="ganador-img" src="assets/img/annie-rojas-img-2.jpg"><span class="text-center d-block">Annie Rojas<br></span></div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>Mejor Director de Película Animada&nbsp;&nbsp;<br></td>
@@ -115,8 +131,12 @@
                                                     <li>Ana Teresa Ávila - Robot 7723</li>
                                                 </ul>
                                             </td>
-                                            <td>Ana Teresa Ávila</td>
-                                            <td>Ana Teresa Ávila</td>
+                                            <td>
+                                                <div class="ganador-div"><img class="ganador-img" src="assets/img/irwin-daayan-img.jpg"><span class="text-center d-block">Irwin Daayán<br></span></div>
+                                            </td>
+                                            <td>
+                                                <div class="ganador-div"><img class="ganador-img" src="assets/img/ana-teresa-avila-img.jpg"><span class="text-center d-block">Ana Teresa Ávila<br></span></div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>Mejor Director de Película Animada&nbsp;&nbsp;<br></td>
@@ -240,6 +260,16 @@
                                         </tr>
                                     </tbody>
                                 </table>
+                            </div>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col text-center responsive-video-container-nominados"><span class="d-block">El Evento 2019</span>
+                                    <div class="embed-responsive embed-responsive-16by9"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/URwgzi2BA04?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=URwgzi2BA04" width="560" height="315"></iframe></div>
+                                    <div class="text-center social-icons-div"><a href="https://www.facebook.com/premiosatril/" target="_blank"><i class="fa fa-facebook-square" data-bs-hover-animate="pulse"></i></a><a href="https://twitter.com/premiosatril?lang=es" target="_blank"><i class="fa fa-twitter-square" data-bs-hover-animate="pulse"></i></a><a href="https://www.instagram.com/premiosatriloficial/?hl=es-la" target="_blank"><i class="fa fa-instagram" data-bs-hover-animate="pulse"></i></a><a href="https://www.youtube.com/channel/UCR5x3TRez5xN5-GU-cof8rg" target="_blank"><i class="fa fa-youtube-play" data-bs-hover-animate="pulse"></i></a>
+                                        <div><span>Siguenos</span></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
